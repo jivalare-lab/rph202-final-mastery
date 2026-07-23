@@ -1,25 +1,25 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Preparación offline para el examen final RPH202">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Offline preparation for the RPH202 final exam">
   <title>Religion Mastery · RPH202</title><link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header><a class="brand" href="#home"><b>R</b><span>Religion Mastery<small>RPH202 · Final · Spring 2026</small></span></a><button id="timer">25:00</button></header>
 <main>
   <section id="home" class="view active">
-    <div class="hero"><div><p class="eyebrow">SOPHIA UNIVERSITY · SPRING 2026</p><h1>Compara las ideas.<br><em>Recuerda los ejemplos.</em></h1><p>Repaso exclusivo de la guía final: Divine Reality, Cosmogony, Anthropology y Soteriology.</p><div class="actions"><button data-action="smart">Sesión inteligente</button><button class="ghost" data-view="exam">Simulacro</button></div></div><div class="ring"><strong id="mastery">0%</strong><span>dominio</span></div></div>
-    <div class="metrics"><article><span>Vistas</span><strong id="seen">0</strong></article><article><span>Precisión</span><strong id="accuracy">—</strong></article><article><span>Errores</span><strong id="mistakes">0</strong></article></div>
-    <h2>Los cuatro bloques del final</h2><div id="workGrid" class="grid"></div>
-    <aside class="alert"><strong>Fuente prioritaria</strong><span>Todo el banco sigue final_study_guide_2026.docx y lo amplía con las notas y presentaciones del curso.</span></aside>
+    <div class="hero"><div><p class="eyebrow">SOPHIA UNIVERSITY · SPRING 2026</p><h1>Compare the ideas.<br><em>Remember the examples.</em></h1><p>Focused review of the final guide: Divine Reality, Cosmogony, Anthropology and Soteriology.</p><div class="actions"><button data-action="smart">Smart session</button><button class="ghost" data-view="exam">Mock exam</button></div></div><div class="ring"><strong id="mastery">0%</strong><span>mastery</span></div></div>
+    <div class="metrics"><article><span>Seen</span><strong id="seen">0</strong></article><article><span>Accuracy</span><strong id="accuracy">—</strong></article><article><span>Mistakes</span><strong id="mistakes">0</strong></article></div>
+    <h2>The four final blocks</h2><div id="workGrid" class="grid"></div>
+    <aside class="alert"><strong>Primary source</strong><span>The bank follows final_study_guide_2026.docx and expands it with course notes and slides.</span></aside>
   </section>
-  <section id="works" class="view"><div class="pagehead"><p class="eyebrow">ACTIVE RECALL</p><h1>Conceptos y ejemplos</h1></div><div id="workDetail"></div></section>
-  <section id="timeline" class="view"><div class="pagehead"><p class="eyebrow">COMPARATIVE MAP</p><h1>Del cosmos a la salvación</h1></div><div id="timelineList" class="timeline"></div><div id="compareGrid" class="compare"></div></section>
-  <section id="practice" class="view"><div class="quiz"><div class="quiztop"><button data-view="home" class="back">←</button><span id="counter"></span></div><p id="qmeta" class="eyebrow"></p><h2 id="prompt"></h2><div id="answers"></div><div id="feedback" aria-live="polite"></div><button id="next" class="hidden">Siguiente</button></div></section>
-  <section id="exam" class="view"><div class="pagehead"><p class="eyebrow">CLOSED BOOK</p><h1>Simulacro final</h1><p>30 preguntas mixtas. Define, identifica el ejemplo y compara tradiciones sin consultar notas.</p></div><button data-action="exam">Comenzar</button><div id="essayLab" class="essay"></div></section>
-  <section id="review" class="view"><div class="pagehead"><p class="eyebrow">ERROR NOTEBOOK</p><h1>Lo que todavía confundes</h1></div><div id="reviewList"></div></section>
+  <section id="works" class="view"><div class="pagehead"><p class="eyebrow">ACTIVE RECALL</p><h1>Concepts and examples</h1></div><div id="workDetail"></div></section>
+  <section id="timeline" class="view"><div class="pagehead"><p class="eyebrow">COMPARATIVE MAP</p><h1>From cosmos to salvation</h1></div><div id="timelineList" class="timeline"></div><div id="compareGrid" class="compare"></div></section>
+  <section id="practice" class="view"><div class="quiz"><div class="quiztop"><button data-view="home" class="back" aria-label="Back to home">←</button><span id="counter"></span></div><p id="qmeta" class="eyebrow"></p><h2 id="prompt"></h2><div id="answers"></div><div id="feedback" aria-live="polite"></div><button id="next" class="hidden">Next</button></div></section>
+  <section id="exam" class="view"><div class="pagehead"><p class="eyebrow">CLOSED BOOK</p><h1>Final mock exam</h1><p>30 mixed questions. Define, identify the example and compare traditions without notes.</p></div><button data-action="exam">Start</button><div id="essayLab" class="essay"></div></section>
+  <section id="review" class="view"><div class="pagehead"><p class="eyebrow">ERROR NOTEBOOK</p><h1>What still trips you up</h1></div><div id="reviewList"></div></section>
 </main>
-<nav><button data-view="home">Inicio</button><button data-view="works">Bloques</button><button data-view="timeline">Mapa</button><button data-action="smart">Practicar</button><button data-view="exam">Examen</button><button data-view="review">Errores</button></nav>
+<nav aria-label="Primary"><button data-view="home">Home</button><button data-view="works">Blocks</button><button data-view="timeline">Map</button><button data-action="smart">Practice</button><button data-view="exam">Exam</button><button data-view="review">Errors</button></nav>
 <script src="data.js"></script><script src="app.js"></script>
 </body></html>

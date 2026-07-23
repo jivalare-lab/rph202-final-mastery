@@ -1,18 +1,18 @@
 # Religion Mastery · RPH202
 
-Sistema offline para el examen final de Fundamentals of Religion, Sophia University, Spring 2026.
+Offline study system for the Fundamentals of Religion final exam, Sophia University, Spring 2026.
 
-Basado en la guía final, 18 presentaciones y las notas del vault. Cubre exclusivamente Divine/Ultimate Reality, Cosmogony, Anthropology y Soteriology.
+Based on the final guide, 18 slide decks and vault notes. It focuses on Divine/Ultimate Reality, Cosmogony, Anthropology and Soteriology.
 
-## Funciones
+## Features
 
-- Práctica adaptativa y cuaderno de errores.
-- Multiple choice y short answer.
-- Comparaciones y ejemplos exactos de la guía.
-- Simulacro de 30 preguntas.
-- Progreso local, temporizador y uso offline.
+- Adaptive practice and error notebook.
+- Multiple-choice and short-answer questions.
+- Comparisons and exact examples from the guide.
+- 30-question mock exam.
+- Local progress, timer, offline use and mobile-first browser UI.
 
-## Uso y prueba
+## Use and validation
 
 ```bash
 python3 -m http.server 8766 --bind 127.0.0.1
